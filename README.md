@@ -16,10 +16,12 @@ python training.py \
     --sched 1 \
     --training_scheme "RGBD" \
     --salient_loss_weight 1.0 \
-    --use_pretrained 0 \
+    --use_pretrained 1 \
+    --checkpoint_name "SODAWideNet++" \ 
     --im_size 256
 ```
 
+For RGBD training, use the following command - 
 
 ```bash
 python training.py \
@@ -31,6 +33,7 @@ python training.py \
     --sched 1 \
     --training_scheme "RGBD" \
     --salient_loss_weight 1.0 \
-    --use_pretrained 0 \
+    --use_pretrained 1 \
+    --checkpoint_name "SODAWideNet++" \ 
     --im_size 256
 ```
